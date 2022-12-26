@@ -1,0 +1,117 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main_layout"
+    tools:ignore="InvalidId">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="BIENVENIDO"
+        android:textSize="30dp"></TextView>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.herprogramacion.botones.ActividadBotones">
+
+        <Button
+            android:id="@+id/btnTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="VERIFICAR TEMPERATURA"
+            android:textSize="20sp"
+            style="?attr/materialButtonOutlinedStyle"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/btnpuertaabierta"
+            android:layout_marginTop="53dp"
+            android:gravity="center"
+            android:text="CONTROL DE LUZ"
+            android:textSize="30dp" />
+
+        <ImageButton
+            android:id="@+id/btnpuertaabierta"
+            android:layout_width="169dp"
+            android:layout_height="92dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="false"
+            android:layout_marginStart="218dp"
+            android:layout_marginTop="237dp"
+            android:textSize="30dp"
+            android:background="@drawable/abierta"
+
+            />
+        <ImageButton
+            android:id="@+id/btnpuertacerrado"
+            android:layout_width="169dp"
+            android:layout_height="92dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="false"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="235dp"
+            android:textSize="30dp"
+            android:background="@drawable/cerrada"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/btnTemperatura"
+            android:layout_alignTop="@+id/btnluzprendida"
+            android:layout_marginTop="-357dp"
+            android:gravity="center"
+            android:text="CONTROL DE PUERTA"
+            android:textSize="30dp" />
+
+        <ImageButton
+            android:id="@+id/btnluzprendida"
+            android:layout_width="169dp"
+            android:layout_height="92dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="false"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="486dp"
+            android:textSize="30dp"
+            android:background="@drawable/encendido"
+
+            />
+        <ImageButton
+            android:id="@+id/btnluzapagar"
+            android:layout_width="169dp"
+            android:layout_height="92dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="false"
+            android:layout_marginStart="225dp"
+            android:layout_marginTop="484dp"
+            android:textSize="30dp"
+            android:background="@drawable/apagado"
+
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
