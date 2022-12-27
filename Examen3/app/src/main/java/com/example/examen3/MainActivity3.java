@@ -66,7 +66,8 @@ public class MainActivity3 extends AppCompatActivity {
             }
         });
 
-    }
+    } //--fin : onCreate()
+
     private void actualizar(String url) {
         StringRequest stringRequest = new StringRequest(Request.Method.PUT, url, new Response.Listener<String>() {
             @Override
