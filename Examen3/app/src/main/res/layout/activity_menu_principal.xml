@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado_fragmentos"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipalActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.26"
+        android:background="@drawable/smoked_circuit_board"
+        tools:ignore="Suspicious0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:fontFamily="@font/fff_tusj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleMenuPrincipal"
+                android:text="MENÚ"
+                android:layout_margin="3dp"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.18"
+        tools:ignore="Suspicious0dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <android.widget.Button
+                android:id="@+id/btnMenuOptC1Huella"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="C1: Huella + Cerradura"
+                android:fontFamily="@font/atomicage_regular"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textAllCaps="false"
+                android:background="@drawable/gradient_button_orange"
+                app:layout_constraintEnd_toEndOf="@+id/btn4"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/btn4"
+                app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.18"
+        tools:ignore="Suspicious0dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <android.widget.Button
+                android:id="@+id/btnMenuOptC2Temperatura"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="C2: Temp. Corporal"
+                android:fontFamily="@font/atomicage_regular"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textAllCaps="false"
+                android:background="@drawable/gradient_button_orange"
+                app:layout_constraintEnd_toEndOf="@+id/btn4"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/btn4"
+                app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.18"
+        tools:ignore="Suspicious0dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <android.widget.Button
+                android:id="@+id/btnMenuOptC3LucesOff"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="C3: Luces Oficina"
+                android:fontFamily="@font/atomicage_regular"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textAllCaps="false"
+                android:background="@drawable/gradient_button_orange"
+                app:layout_constraintEnd_toEndOf="@+id/btn4"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/btn4"
+                app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.2"
+        tools:ignore="Suspicious0dp">
+
+    </RelativeLayout>
+
+</LinearLayout>
