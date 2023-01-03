@@ -17,13 +17,18 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".ControlLuz"
+            android:exported="false" />
+        <activity
+            android:name=".ControlPuerta"
+            android:exported="false" />
+        <activity
             android:name=".MenuPrincipalActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".SplashScreenMIELActivity"
             android:exported="true">

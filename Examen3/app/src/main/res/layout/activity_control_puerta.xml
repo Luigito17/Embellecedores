@@ -1,0 +1,37 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linlayoPuerta"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="156dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_marginBottom="10dp"
+        android:text="PUERTA"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/btniPuer"
+        android:layout_width="222dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="47dp"
+        android:layout_toRightOf="@+id/textView" />
+
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:onClick="validarswitch2"
+        android:text="Puerta"
+        android:layout_below="@+id/textView"/>
+
+
+</RelativeLayout>
