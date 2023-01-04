@@ -23,6 +23,11 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+            android:name=".ControlLuz"
+            android:exported="false" />
+        <activity
+            android:name=".ControlPuerta"
+            android:exported="false" />
         <activity
             android:name=".MenuPrincipalActivity"
             android:exported="false">

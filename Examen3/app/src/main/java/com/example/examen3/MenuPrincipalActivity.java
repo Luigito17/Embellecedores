@@ -25,6 +25,8 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //TODO: Redirigir a la Pantalla (Acticity) :: Circuito 1: Huella
+                Intent i = new Intent(MenuPrincipalActivity.this, ControlPuerta.class);
+                startActivity(i);
             }
         }); //--fin: btnMenuOptC1Huella.clickListener()
 
@@ -45,6 +47,8 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //TODO: Redirigir a la Pantalla (Acticity) :: Circuito 3: Luces de Oficina
+                Intent i = new Intent(MenuPrincipalActivity.this, ControlLuz.class);
+                startActivity(i);
             }
         }); //--fin: btnMenuOptC3LucesOff.clickListener()
 
