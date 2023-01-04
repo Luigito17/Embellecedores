@@ -12,7 +12,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:textColor="#4E2501"
+        android:fontFamily="@font/anron_n"
+        android:textColor="#FF5722"
         android:layout_marginBottom="10dp"
         android:text="PUERTA"
         android:textAlignment="center"
@@ -31,7 +32,9 @@
         android:layout_width="match_parent"
         android:layout_height="103dp"
         android:onClick="validarswitch2"
-        android:text="Puerta"
+        android:text="Abrir puerta"
+        android:fontFamily="@font/anron_n"
+        android:textColor="#090908"
         android:layout_below="@+id/textView"/>
 
 
