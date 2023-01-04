@@ -20,6 +20,7 @@ public class ControlPuerta extends AppCompatActivity {
         switch1 = findViewById(R.id.switch1);
         btniPuer = findViewById(R.id.btniPuer);
         statusPuer = 1;
+        btniPuer.setBackgroundDrawable(null);
 
 
         validarstatusPuer();

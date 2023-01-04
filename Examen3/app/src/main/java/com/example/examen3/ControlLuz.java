@@ -20,6 +20,7 @@ public class ControlLuz extends AppCompatActivity {
         switch2 = findViewById(R.id.switch2);
         btniLuz = findViewById(R.id.btniLuz);
         statusLuz = 1;
+        btniLuz.setBackgroundDrawable(null);
 
         validarstatusLuz();
 
