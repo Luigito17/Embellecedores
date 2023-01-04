@@ -2,6 +2,7 @@ package com.example.examen3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +33,10 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //TODO: Redirigir a la Pantalla (Acticity) :: Circuito 2: Temperatura Corporal
+                // -->> Enviar a pantalla de C2TemperaturaActivity
+                Intent intent = new Intent(MenuPrincipalActivity.this, C2TemperaturaActivity.class);
+                startActivity( intent );
+                finish();
             }
         }); //--fin: btnMenuOptC2Temperatura.clickListener()
 
